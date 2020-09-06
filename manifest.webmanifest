@@ -1,0 +1,30 @@
+{
+    "name": "Virginia Frances Sterrett",
+    "short_name": "Sterrett",
+    "description": "Fansite of Virginia Frances Sterrett",
+    "prefer_related_applications": false,
+    "lang": "en-US",
+    "start_url": "http://127.0.0.1:5500/index.html",
+    "display": "standalone",
+    "theme_color": "#fffdd0",
+    "background_color": "#fffaf0",
+    "icons": [
+        {
+        "src": "images/icon_192x192_tanglewood_dragons_teeth_QvO_icon.ico",
+        "sizes": "192x192",
+        "type": "image/ico"
+        },
+        {
+        "src": "images/icon_512x512_tanglewood_dragons_teeth_icon.ico",
+        "sizes": "512x512",
+        "type": "image/ico"
+        },
+        {
+        "src": "images/maskable_icon.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+        }
+    ]
+    
+}
