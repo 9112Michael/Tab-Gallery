@@ -4,7 +4,7 @@
     "description": "Fansite of Virginia Frances Sterrett",
     "prefer_related_applications": false,
     "lang": "en-US",
-    "start_url": "https://9112michael.github.io/Tab-Gallery",
+    "start_url": "https://9112michael.github.io/Tab-Gallery/",
     "display": "standalone",
     "theme_color": "#fffdd0",
     "background_color": "#fffaf0",
@@ -21,7 +21,7 @@
         },
         {
         "src": "images/maskable_icon.png",
-        "sizes": "512x512",
+        "sizes": "150x150",
         "type": "image/png",
         "purpose": "any maskable"
         }
