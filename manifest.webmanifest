@@ -20,9 +20,9 @@
         "type": "image/ico"
         },
         {
-        "src": "images/icon_150x150_tanglewood_dragons_teeth.ico",
+        "src": "images/maskable_icon (2).png",
         "sizes": "150x150",
-        "type": "image/ico",
+        "type": "image/png",
         "purpose": "any maskable"
         }
     ]
