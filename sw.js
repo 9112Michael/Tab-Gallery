@@ -1,6 +1,7 @@
 var CACHE_NAME = 'my-site-cache-v1';
 let urlsToCache = [
   '/',
+  '/Tab-Gallery',
   '/index.html',
   '/manifest.webmanifest',
   '/style.css',
