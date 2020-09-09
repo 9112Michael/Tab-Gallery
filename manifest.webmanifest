@@ -4,24 +4,24 @@
     "description": "Fansite of Virginia Frances Sterrett",
     "prefer_related_applications": false,
     "lang": "en-US",
-    "start_url": "https://9112michael.github.io/Tab-Gallery/",
+    "start_url": ".",
     "display": "standalone",
     "theme_color": "#fffdd0",
     "background_color": "#fffaf0",
     "icons": [
         {
-        "src": "images/icon_192x192_tanglewood_dragons_teeth_QvO_icon.ico",
+        "src": "images/tanglewood_192x192_dragons_teeth.png",
         "sizes": "192x192",
-        "type": "image/ico"
+        "type": "image/png"
         },
         {
-        "src": "images/icon_512x512_tanglewood_dragons_teeth_icon.ico",
+        "src": "images/tanglewood_512x512_dragons_teeth.png",
         "sizes": "512x512",
-        "type": "image/ico"
+        "type": "image/png"
         },
         {
-        "src": "images/maskable_icon (2).png",
-        "sizes": "150x150",
+        "src": "images/192x192_maskable_icon.png",
+        "sizes": "192x192",
         "type": "image/png",
         "purpose": "any maskable"
         }
