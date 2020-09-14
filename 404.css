@@ -1,0 +1,39 @@
+header {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    text-shadow: 2px 1px red;
+  }
+  
+  main {
+    border-top: 4px solid red;
+    border-bottom: 4px solid black;
+    background-image: url("http://3.bp.blogspot.com/-x3N1oTLa3DI/UKBceodCmhI/AAAAAAAB7nQ/mwGQFJ-7zNI/s1600/15_tanglewoodtales_sterrett_dragonsteeth_dec.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+  }
+  
+  p {
+    font-family: monospace;
+    color: red;
+    text-shadow: 1px 1px black;
+    font-size: 1.5rem;
+    padding: 5px 15px;
+  }
+  
+  footer {
+    height: 20vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  a {
+    color: white;
+    text-shadow: 2px 1px red;
+    text-decoration: none;
+    font-size: 4rem;
+  }
+  
