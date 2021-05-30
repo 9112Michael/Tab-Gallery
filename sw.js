@@ -1,4 +1,4 @@
-// Service worker design inspired by https://github.com/google-developer-training/pwa-training-labs
+/* // Service worker design inspired by https://github.com/google-developer-training/pwa-training-labs */
 
 console.log('Hello from sw.js');
 
@@ -8,10 +8,11 @@ const urlsToCache = [
   'index.html',
   'style.css',
   '404.html',
+  '404.css',
   'offline.html'
 ];
 
-const CACHE_NAME = 'my-site-cache-v3';
+const CACHE_NAME = 'my-site-cache-v4';
 
 // Listen for install event, set callback
 self.addEventListener('install', event => {
