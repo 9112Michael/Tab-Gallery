@@ -11,15 +11,18 @@
     <link rel="canonical" href="#">
     <link rel="manifest" href="manifest.webmanifest">
     <!-- <link rel="manifest" href="asset-manifest.json"> -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images\apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <title>Virginia Frances Sterrett</title>
 </head>
 <body>
     <header>
         <h1>Virginia Frances Sterrett</h1>
+        <div class="hero-image">
+            <link rel="preload" as="image" href="images/old129.webp">
+        </div>
         <h2>American Illustrator (1900-1931)</h2>
         <nav>
-            <p>Virginia Sterrett was an American illustrator from Chicago who produced illustrations for three books before losing her life to 
+            <p><strong>Virginia Frances Sterrett</strong> was an American illustrator from Chicago who produced illustrations for three books before losing her life to 
                 tuberculosis. The images she produced are among the best of their type from the Art Nouveau period.</p>
                  <p>Two of the books are available in digital form and one is still protected by copyright and must be either bought or borrowed.</p>
             <ul>
@@ -30,13 +33,6 @@
             </ul>
         </nav>
     </header>
-
-      <!-- The Modal -->
-<div id="myModal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="img01">
-    <div id="caption"></div>
-  </div>
          
     <article>
         <h2>Illustrator</h2>
@@ -46,15 +42,64 @@
              </p>
              
     </article>
+    <br>
 
     <!--Credit for jpg rendering to  https://www.artpassions.net/sterrett/virginia_sterrett.html  -->
+
     <section>
-            <figure>
-                <img id="myImg" loading="eager" src="images\tanglewood_dragons_teeth (1).webp" alt="Cadmus and the Dragon" width="306" height="411">
-                <figcaption>Illustration from the <cite>Tanglewood Tales</cite> by <i>Virginia Frances Sterrett</i></figcaption>
+        <h2>Tab Gallery</h2>
+        <!-- 
+            <figure class="row" role ="group">
+                <figcaption>Illustrations by Virginia Frances Sterrett</figcaption>
+
+                <figure class="col">
+                <img class="img01" loading="eager" src="images/tanglewood_dragons_teeth (1).webp" alt="Cadmus and the Dragon" width="306" height="411">
+                <figcaption class="caption">Illustration from the <cite>Tanglewood Tales</cite> by <i>Virginia Frances Sterrett</i></figcaption>
             </figure>
+
+            <figure class="col">
+                <img class="img01" loading="eager" src="images/europa_and_the_bull.jpg" alt="Europa and the Bull" width="306" height="411">
+                <figcaption class="caption">Illustration from the <cite>Tanglewood Tales</cite> by <i>Virginia Frances Sterrett</i></figcaption>
+            </figure>
+            </figure> -->
+
+            <!-- Four column grid Tab Gallery-->
+
+            <div class="row">
+                <div class="column">
+                  <img src="images/tanglewood_dragons_teeth(1).webp" alt="Cadmus and the Dragon" height="306" width="411" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="images/europa_and_the_bull.webp" alt="Europa and the Bull" width="427" height="479" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="images/tanglewood_medea.webp" alt="Medea" height="550" width="745" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="images/arabian_dark_sky.webp" alt="Arabian Nights" height="441" width="600" onclick="myFunction(this);">
+                </div>
+              </div>
+              
+              <!-- The expanding image container -->
+              <div class="container">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+              
+                <!-- Expanded image -->
+                <img src="images/" id="expandedImg" alt="Expanded Image" style="width:100%">
+              
+                <!-- Image text -->
+                <div id="imgtext"></div>
+              </div>
             
       </section>
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" />
+        </a>
+    </p>
       <script src="script.js" defer></script>
 </body>
 </html>
